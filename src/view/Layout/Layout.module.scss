@@ -1,0 +1,38 @@
+.upHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(https://birds-quiz.netlify.app/static/media/logo.4f82cd73.svg);
+  width: 12.5rem;
+  height: 3.4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.allBirds {
+  background-color: #008966;
+  margin-bottom: 25px;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.allBirds a {
+  text-align: center;
+  padding: 9.5px 0px;
+  flex: auto;
+  text-decoration: none;
+  color: white;
+  cursor: auto;
+  pointer-events: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.625rem;
+}

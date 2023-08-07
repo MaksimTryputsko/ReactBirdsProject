@@ -1,0 +1,9 @@
+export const WARM_UP_PAGE: string = 'warmUp';
+export const SPARROW_PAGE: string = 'sparrow';
+export const FORESTS_BIRDS_PAGE: string = 'forestsBirds';
+export const SINGERS_BIRDS_PAGE: string = 'singersBirds';
+export const PREDATORY_BIRDS_PAGE: string = 'predatoryBirds';
+export const MARINE_BIRDS: string = 'marineBirds';
+export const MAIN_PAGE: string = '/';
+export const ERROR_PAGE: string = '*';
+export const END_GAME: string = 'endGame';

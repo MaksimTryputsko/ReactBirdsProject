@@ -1,0 +1,40 @@
+.birdValue {
+  border: 0.1px solid #444;
+  padding: 16px;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  border-bottom: none;
+  cursor: pointer;
+  border-left: none;
+  border-right: none;
+}
+.birdValue:first-child {
+  border-top: none;
+}
+.birdValue:hover {
+  background-color: #444;
+}
+.default {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 16px;
+  border-radius: 50%;
+  background-color: #444;
+}
+.error {
+  background-color: red;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+.right {
+  background-color: #00bc8c;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 16px;
+  border-radius: 50%;
+}
